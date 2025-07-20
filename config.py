@@ -24,8 +24,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "AutoAnimeFileBot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", "@Nine_Anime_Official_Ongoing")
-FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@DS_AnimeX")
-FORCE_SUB_CHANNEL3 = os.environ.get("FORCE_SUB_CHANNEL3", "@nineanimeofficial")
+FORCE_SUB_CHANNEL2 = os.environ.get("FORCE_SUB_CHANNEL2", "@nineanimeofficial")
+#FORCE_SUB_CHANNEL3 = os.environ.get("FORCE_SUB_CHANNEL3", "@nineanimeofficial")
 #FORCE_SUB_CHANNEL4 = os.environ.get("FORCE_SUB_CHANNEL4", "@nineanimeofchat")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
