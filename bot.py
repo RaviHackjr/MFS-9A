@@ -1,4 +1,4 @@
-from aiohttp import web
+5from aiohttp import web
 from plugins import web_server
 import asyncio
 import pyromod.listen
@@ -55,7 +55,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ʙʏ @GenAnimeOfc</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ʙʏ @NineAnimeOfficial</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
